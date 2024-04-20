@@ -1,6 +1,7 @@
 **Eksperymentalny obraz FM POLAND Orange PI Zero v3**
 
 ( Obraz dla Raspberry PI zanjdziesz tu: https://github.com/FM-POLAND/hotspot-rpi-image/releases/tag/1.0 )
+
 ( Obraz dla Orange Pi Zero v1.x zanjdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
 
 Obraz przeznaczony do budowy hotspota domowego
