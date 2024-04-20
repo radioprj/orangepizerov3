@@ -63,13 +63,5 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 
 ![Hotspot login](https://github.com/radioprj/orangepiv3/blob/main/hotspot-login.png)
 
-Obraz zawiera dwa rodzaje dashboard, Domyślny w wersji "BLUE" stary dasboard tzw "jasny"
-jest w katalogu /var/www/htmlold
-Jeśli chcesz wrócić do starego dashbaord musisz jako user root zrobić
-
-sudo -s
-cd /var/www
-mv html htmlblue
-mv htmlold html
 
 Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.
