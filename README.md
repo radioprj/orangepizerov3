@@ -6,8 +6,8 @@
 
 Obraz przeznaczony do budowy hotspota domowego
 
-UWAGA: Obraz bazuje na testowj wersji systemu **ArmBian** v24.5 (Debian v12) i do czasu kiedy nie będzie oficjalnego
-wydania ArmBina v24.5 obecny obraz może mieć jakieś niedosokałości wynikające z wersji testowej systemu.
+**UWAGA: Obraz bazuje na testowj wersji systemu **ArmBian** v24.5 (Debian v12) i do czasu kiedy nie będzie oficjalnego
+wydania ArmBina v24.5 obecny obraz może mieć jakieś niedosokałości wynikające z wersji testowej systemu.**
 
 Obraz o nazwie fmpoland-ozpi3.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
@@ -64,4 +64,6 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 ![Hotspot login](https://github.com/radioprj/orangepiv3/blob/main/hotspot-login.png)
 
 
-Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.
+**Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
+
+
