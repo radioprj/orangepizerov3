@@ -59,7 +59,7 @@ http://ipadresdashboard/svxc/
 
 po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie odbiornik SVXLINK. Jak założyć użytkownika i dla niego hasło patrz opis na swoim hotspot w pliku /etc/svxlink/SVXControl.txt
 
-Hotspot login
+![Hotspot login](https://github.com/radioprj/orangepiv3/blob/main/hotspot-login.png)
 
 Obraz zawiera dwa rodzaje dashboard, Domyślny w wersji "BLUE" stary dasboard tzw "jasny"
 jest w katalogu /var/www/htmlold
