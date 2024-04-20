@@ -1,11 +1,12 @@
 **Eksperymentalny obraz FM POLAND Orange PI Zero v3**
 
 ( Obraz dla Raspberry PI zanjdziesz tu: https://github.com/FM-POLAND/hotspot-rpi-image/releases/tag/1.0 )
+( Obraz dla Orange Pi Zero v1.x zanjdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
 
 Obraz przeznaczony do budowy hotspota domowego
 
-Obraz bazuje na testowj wersji systemu **ArmBian** v25 (Debian v12) i do czasu kiedy nie będzie oficjalnego
-wydania ArmBina v25 obecny obraz może mieć jakieś niedosokałości wynikające z wersji testowej systemu.
+UWAGA: Obraz bazuje na testowj wersji systemu **ArmBian** v24.5 (Debian v12) i do czasu kiedy nie będzie oficjalnego
+wydania ArmBina v24.5 obecny obraz może mieć jakieś niedosokałości wynikające z wersji testowej systemu.
 
 Obraz o nazwie fmpoland-ozpi3.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
