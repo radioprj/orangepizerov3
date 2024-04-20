@@ -46,7 +46,7 @@ oraz inne opcje stosownie do potrzeb
 CZYTAJ uważnie informacje umieszczone w każdym oknie z serii administracyjnych
 w których są istotne informacje do dostępnych ustawień
 
-Admin Menu
+![Admin Menu](https://github.com/radioprj/orangepiv3/blob/main/admin-menu.png)
 
 Domyślnie obraz przygotowany do pracy z modyfikowana kartą dźwiękowa CM108: http://fm-poland.pl/budowa-hotspota/
 
