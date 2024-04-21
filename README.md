@@ -1,13 +1,13 @@
 **Eksperymentalny obraz FM POLAND Orange PI Zero v3**
 
-( Obraz dla Raspberry PI zanjdziesz tu: https://github.com/FM-POLAND/hotspot-rpi-image/releases/tag/1.0 )
+( Obraz dla Raspberry PI znajdziesz tu: https://github.com/FM-POLAND/hotspot-rpi-image/releases/tag/1.0 )
 
-( Obraz dla Orange Pi Zero v1.x zanjdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
+( Obraz dla Orange Pi Zero v1.x znajdziesz tu: https://github.com/sp2ong/hotspot-ozpi-image/releases/tag/1.0 )
 
 Obraz przeznaczony do budowy hotspota domowego
 
-**UWAGA: Obraz bazuje na testowj wersji systemu **ArmBian** v24.5 (Debian v12) i do czasu kiedy nie będzie oficjalnego
-wydania ArmBian v24.5 obecny obraz może mieć jakieś niedosokałości wynikające z wersji testowej systemu.**
+**UWAGA: Obraz bazuje na testowej wersji systemu **ArmBian** v24.5 (Debian v12) i do czasu kiedy nie będzie oficjalnego
+wydania ArmBian v24.5 obecny obraz może mieć jakieś niedoskonałości wynikające z wersji testowej systemu.**
 
 Obraz o nazwie fmpoland-ozpi3.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
@@ -31,7 +31,7 @@ IP adres możesz znaleźć przy pomocy darmowego narzędzia: https://www.advance
 
 Konfiguracja via Dashboard, należy wybrać z menu "Admin" i następnie:
 
-W pierwszej kolejności sprawdź poprawne ustawia obsługi SQL i PTT w menu
+W pierwszej kolejności sprawdź poprawne ustawienia obsługi SQL i PTT w menu
 
 **SQL PTT"
 
@@ -53,7 +53,7 @@ w których są istotne informacje do dostępnych ustawień
 Domyślnie obraz przygotowany do pracy z modyfikowana kartą dźwiękowa CM108: http://fm-poland.pl/budowa-hotspota/
 
 Można wykorzystać obraz z dowolnym radiem np GMxx, BF-888, UVK5, UV5R itp podłączając go do: http://fm-poland.pl/files/ozpi3-anyradio.pdf lub 
-http://fm-poland.pl/files/ozpi3-sa818.pdf (obecnie nie sprawdzone działanie GPIO na OZPI3)
+http://fm-poland.pl/files/ozpi3-sa818.pdf (obecnie niesprawdzone działanie GPIO na OZPI3 wymaga testów, używać zalecane numery GPIO SQL: 69, PTT: 70)
 
 Jeśli dashboard będzie dostępny z zewnątrz (zastanów sie czy jest to ci niezbędne) to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (ZALECANE: można skorzystać z VPN Tailscale wersja personal zawiera darmową obsługę 3 userów/100 urządzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
 
@@ -63,6 +63,7 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 
 ![Hotspot login](https://github.com/radioprj/orangepiv3/blob/main/hotspot-login.png)
 
+Obraz zawiera dwa rodzaje dashboard, Domyślny w wersji "BLUE" stary dashboard tzw. "jasny"
 
 **Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
 
