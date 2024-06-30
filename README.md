@@ -2,9 +2,6 @@
 
 Obraz przeznaczony do budowy hotspota domowego
 
-**UWAGA: Obraz bazuje na testowej wersji systemu **ArmBian** v24.5 (Debian v12) i do czasu kiedy nie będzie oficjalnego
-wydania ArmBian v24.5 obecny obraz może mieć jakieś niedoskonałości wynikające z wersji testowej systemu.**
-
 Obraz o nazwie fmpoland-ozpi3.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
 
 Login do konsoli via ssh:
