@@ -1,5 +1,7 @@
 **Eksperymentalny obraz FM POLAND Orange PI Zero v3**
 
+**To jest projekt hobbystyczny i rozwijał się w autora własnym tempie.**
+
 Obraz przeznaczony do budowy hotspota domowego
 
 Obraz o nazwie fmpoland-ozpi3.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
