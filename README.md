@@ -1,4 +1,4 @@
-**Eksperymentalny obraz FM POLAND Orange PI Zero v3**
+**Eksperymentalny obraz hotspot FM Orange PI Zero v3**
 
 **To jest projekt hobbystyczny i rozwija się w autora własnym tempie.**
 
@@ -32,7 +32,7 @@ W pierwszej kolejności sprawdź poprawne ustawienia obsługi SQL i PTT w menu
 
 Po sprawdzeniu / ustawieniu SQL / PTT dopiero wtedy możesz przejść do konfiguracji:
 
-"SVXCnf" - konfiguracja konta FM POLAND
+"SVXCnf" - konfiguracja konta 
 
 "NodeInfo" - Informacje o stacji
 
