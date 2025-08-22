@@ -5,7 +5,7 @@
 
 **UWAGA: Obraz bazuje na wersji systemu Community **ArmBian** v25.x (Debian v12)  obraz może mieć jakieś niedoskonałości wynikające, że bazuje na wersji wspieranej przez społeczność Armbian.**
 
-Obraz o nazwie **[hotspotfm-ozpi3.img.xz ](https://github.com/radioprj/orangepizerov3/releases/download/v1.0/hotspotfm-ozpi3.img.xz)** (plik do pobrania jest na końcu tej strony) nagrać na kartę microSD  przy pomocy: https://etcher.balena.io/
+Obraz o nazwie **[hotspotfm-ozpi3.img.xz ](https://github.com/radioprj/orangepizerov3/releases/download/v1.0/hotspotfm-ozpi3.img.xz)** nagrać na kartę microSD  przy pomocy: https://etcher.balena.io/
 
 Jeśli masz problem zapisać skompresowany obraz .xz na kartę microSD możesz go dekompresować darmowym narzędziem [7-zip](http://www.e7z.org/free-download.htm) Rozpakowany obraz możesz też zapisać na kartę microSD programem [Win32Image](https://sourceforge.net/projects/win32diskimager/files/Archive/)
 
