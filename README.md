@@ -1,10 +1,14 @@
-**Eksperymentalny obraz hotspot FM Orange PI Zero v3**
+
+**Eksperymentalny obraz hotspot FM dla wersji komputera [Orange PI Zero v3](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-Zero-3.html)**
 
 **To jest projekt hobbystyczny i rozwija się w autora własnym tempie.**
 
-Obraz przeznaczony do budowy hotspota domowego
+**UWAGA: Obraz bazuje na wersji systemu Community **ArmBian** v25.x (Debian v12)  obraz może mieć jakieś niedoskonałości wynikające, że bazuje na wersji wspieranej przez społeczność Armbian.**
 
-Obraz o nazwie fmpoland-ozpi3.img.xz nagrać na kartę microSD (8 Gb lub większa) przy pomocy: https://etcher.balena.io/
+Obraz o nazwie **[hotspotfm-ozpi3.img.xz ](https://github.com/radioprj/orangepizerov3/releases/download/v1.0/hotspotfm-ozpi3.img.xz)** (plik do pobrania jest na końcu tej strony) nagrać na kartę microSD  przy pomocy: https://etcher.balena.io/
+
+Jeśli masz problem zapisać skompresowany obraz .xz na kartę microSD możesz go dekompresować darmowym narzędziem [7-zip](http://www.e7z.org/free-download.htm) Rozpakowany obraz możesz też zapisać na kartę microSD programem [Win32Image](https://sourceforge.net/projects/win32diskimager/files/Archive/)
+
 
 Login do konsoli via ssh:
 
@@ -16,7 +20,7 @@ Zalecana zmiana hasła poleceniem: passwd
 
 Dostęp do dashboard:
 
-http://hotspot-fmpl.local/
+http://hotspotfm.local/
 
 lub
 
@@ -28,15 +32,15 @@ Konfiguracja via Dashboard, należy wybrać z menu "Admin" i następnie:
 
 W pierwszej kolejności sprawdź poprawne ustawienia obsługi SQL i PTT w menu
 
-**SQL PTT"
+**SQL PTT**
 
 Po sprawdzeniu / ustawieniu SQL / PTT dopiero wtedy możesz przejść do konfiguracji:
 
-"SVXCnf" - konfiguracja konta 
+**SVXCnf** - konfiguracja konta 
 
-"NodeInfo" - Informacje o stacji
+**NodeInfo** - Informacje o stacji
 
-"WEBCnf" - konfiguracja Dashboard
+**WEBCnf** - konfiguracja Dashboard
 
 oraz inne opcje stosownie do potrzeb
 
@@ -50,7 +54,7 @@ Domyślnie obraz przygotowany do pracy z modyfikowana kartą dźwiękowa CM108: 
 Można wykorzystać obraz z dowolnym radiem np GMxx, BF-888, UVK5, UV5R itp podłączając go do: http://fm-poland.pl/files/ozpi3-anyradio.pdf lub 
 http://fm-poland.pl/files/ozpi3-sa818.pdf (obecnie niesprawdzone działanie GPIO na OZPI3 wymaga testów, używać zalecane numery GPIO SQL: 69, PTT: 70)
 
-Jeśli dashboard będzie dostępny z zewnątrz (zastanów sie czy jest to ci niezbędne) to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (ZALECANE: można skorzystać z VPN Tailscale wersja personal zawiera darmową obsługę 3 userów/100 urządzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
+Jeśli dashboard będzie dostępny z zewnątrz (** nierekomendowane z powodów bezpieczeństwa** - zastanów sie czy jest to ci niezbędne) to aby dostać się do menu ADMIN należy w Admin -> WebCnf w opcji REMOTEIP zamiast adresu 127.0.0.1 wpisać zdalny zaufany IP adres (ZALECANE: można skorzystać z VPN Tailscale wersja personal zawiera darmową obsługę 3 userów/100 urządzeń). Można też dostać z publicznego adresu do strony dashboard po linkiem
 
 http://ipadresdashboard/svxc/
 
@@ -59,7 +63,16 @@ po podaniu użytkownika i hasła gdzie można wyłączyć lub włączyć zdalnie
 ![Hotspot login](https://github.com/radioprj/orangepiv3/blob/main/hotspot-login.png)
 
 
+![Hotspot login](https://github.com/radioprj/orangepiv3/blob/main/displays-svx.png)
 
-**Eksperymentalny obraz używasz na własną odpowiedzialność i autor nie ponosi odpowiedzialności za wykorzystane rozwiązanie i wynikające z niego skutki.**
+Możesz podłączyć wyświetlacze LCD 1602, 2004 patrz  w katalog /opt/fmpoland/lcdsvx/
 
+lub OLED SSD1306, SH1106 patrze w katalog /opt/fmpoland/oledsvx/
 
+w katalogach tych jest plik opis.txt z informacjami jak podłączyć i uruchomić wyświetlacz
+
+Możesz skorzystać z Remote Display, zamiast podłączać bezpośrednio do hotspota:
+
+https://github.com/radioprj/remoteoled
+
+https://github.com/radioprj/remotelcd
